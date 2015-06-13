@@ -1,12 +1,10 @@
-# SwiftBackgroundVideo by lucasjgordon
-Add background videos to your iOS project.
-
-Created by [lucasjgordon](http://www.lucasjgordon.com)
+# SwiftBackgroundVideo
+Add background videos to your iOS project. Created by [lucasjgordon](https://twitter.com/lucasjgordon).
 
 ## Basic Usage
 Add Video.swift to your project, along with any video files that you want to use.
 
-Use the following code in the relevant view controller to display a background video. Pass a reference to the current view, along with the name of the video file.
+Use the following line in the relevant view controller to display a background video. Pass a reference to the current view, along with the name of the video file.
 
 ````swift
 Video.add(self.view, name: "movie.mov")
